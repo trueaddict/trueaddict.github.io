@@ -2,10 +2,50 @@ body {
   width: 50%;
   margin: auto;
   font-family: 'Source Code Pro', monospace;
+  background-color:rgb(107, 107, 107);
+  color:white;
+}
+
+p {
+  margin: 0.8rem 0rem;
 }
 
 header {
+  padding: 1rem 0;
   border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+header p {
+  display: inline-block;
+}
+
+.header-header {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.links {
+  display: inline;
+  float: right;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0.8rem 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  display: block;
+  padding: 0 0.7rem;
 }
 
 footer {
@@ -15,6 +55,21 @@ footer {
 .container {
   width: 95%;
   margin: auto;
+}
+
+.indent {
+  padding-left: 1rem;
+}
+
+.small-line {
+  margin: 2rem auto;
+  padding: 0 0;
+  border-bottom: 1px solid rgba(179, 179, 179, 0.5);
+  width: 35%;
+}
+
+.item {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 1000px) {
