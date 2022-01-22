@@ -1,0 +1,25 @@
+body {
+  width: 50%;
+  margin: auto;
+  font-family: 'Source Code Pro', monospace;
+}
+
+header {
+  border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+footer {
+  border-top: 1px solid rgb(179, 179, 179);
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    width: 95%;
+    margin: auto;
+  }
+}
