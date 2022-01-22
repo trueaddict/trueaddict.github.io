@@ -35,14 +35,14 @@ a {
   text-decoration: none;
 }
 
-ul {
+.ul {
   list-style-type: none !important;
   margin: 0.8rem 0 !important;
   padding: 0 !important;
   overflow: hidden !important;
 }
 
-li {
+.li {
   float: left !important;
   display: block !important;
   padding: 0 0.7rem !important;
