@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet"> 
-    <script src="https://kit.fontawesome.com/f5d86b8c90.js" type="text/javascript" crossorigin="anonymous"></script>   
-    <title>Otto Virtanen - Portfolio</title>
-  </head>
-  <body>
+
+<head lang="en">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+  <script src="https://kit.fontawesome.com/f5d86b8c90.js" type="text/javascript" crossorigin="anonymous"></script>
+  <script src="script/index.js" type="text/javascript"></script>
+  <title>Otto Virtanen - Portfolio</title>
+</head>
+
+<body>
+  <div class="flex-child margin-auto">
     <header>
-      <!--p class="header-header"><b>Portfolio</b></p>-->
-      <p>Otto Virtanen</p>
-      <div class="links">
+      <p class="source-sans-pro">Otto Virtanen</p>
+      <div class="nav">
         <ul class="ul">
           <li class="li">
-            <a href="https://www.linkedin.com/in/otto-virtanen/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="#me">Me</a>
           </li>
           <li class="li">
-            <a href="https://github.com/trueaddict"><i class="fa fa-github" aria-hidden="true"></i></a>
-          </li>
-          <li class="li">
-            <a href="https://www.instagram.com/trueaddict/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-          </li>
-          <li class="li">
-            <a href="https://trailblazer.me/id/ovirtanen"><i class="fab fa-salesforce" aria-hidden="true"></i></a>
+            <a href="https://github.com/trueaddict/trueaddict.github.io">[Source]</a>
           </li>
         </ul>
       </div>
     </header>
-    
+
     <div class="container">
-      <div>
-        <p class="header"><b>Me</b></p>
-        <p>I'm entrepreneur minded tech nerd and I like solving problems with software. I work as Salesforce Developer and I'm studying my master degree at university of Jyväskylä.</p>
+      <div id="me">
+        <p class="topic source-sans-pro"><b>Me</b></p>
+        <p>I'm entrepreneur minded tech nerd and I like solving problems with software. I work as Salesforce Developer
+          and I'm studying my master degree at university of Jyväskylä.</p>
       </div>
       <div class="small-line"></div>
       <div class="item">
-        <p class="header"><b>Bio</b></p>
+        <p class="topic source-sans-pro"><b>Bio</b></p>
         <div class="indent">
           <p><b>2016</b> Graduated from upper secondary school</p>
           <p><b>2017</b> Conscript and soldier at Finnish Air Force</p>
@@ -50,60 +48,87 @@
       </div>
       <div class="small-line"></div>
       <div class="item">
-        <p class="header"><b>Projects</b></p>
+        <p class="topic source-sans-pro"><b>Projects</b></p>
         <div class="indent">
           <div class="project">
-            <p>
-              <b><a href="https://github.com/trueaddict/fuksipassi_app/tree/fuksipassi-react">Fuksipassi [Github]</a></b>
-               
+            <p class="source-sans-pro">
+              <b><a href="https://github.com/trueaddict/fuksipassi_app/tree/fuksipassi-react" target="_blank">Fuksipassi
+                  [Github]</a></b>
+
             </p>
             <p class="indent">
               online implementation of a freshman pass to student associations. <i>Flask/Python and React/JavaScript</i>
             </p>
           </div>
           <div class="project">
-            <p>
-              <b><a href="https://github.com/trueaddict/ruokalista-bot-python">semma-ruokalista-bot [Github]</a></b>
+            <p class="source-sans-pro">
+              <b><a href="https://github.com/trueaddict/ruokalista-bot-python" target="_blank">semma-ruokalista-bot [Github]</a></b>
             </p>
             <p class="indent">
               Telegram bot to query Semma's food menus. <i>python-telegram-bot/Python</i>
             </p>
           </div>
           <div class="project">
-            <p>
-              <b><a href="https://github.com/trueaddict/timetracker">timetracker [Github]</a></b>               
+            <p class="source-sans-pro">
+              <b><a href="https://github.com/trueaddict/timetracker" target="_blank">timetracker [Github]</a></b>
             </p>
             <p class="indent">
               CLI application to help tracking work hours. <i>cmd/Python</i>
             </p>
           </div>
           <div class="project">
-            <p>
+            <p class="source-sans-pro">
               <b>REST-SFTP-API</b>
             </p>
             <p class="indent">
-              Rest-sftp conversion layer that makes sftp file transfers possible for applications without sftp-connection, like Salesforce. <i>rest Flask/Python and sftp Paramiko/Python</i>
+              Rest-sftp conversion layer that makes sftp file transfers possible for applications without
+              sftp-connection, like Salesforce. <i>rest Flask/Python and sftp Paramiko/Python</i>
             </p>
           </div>
         </div>
       </div>
       <div class="small-line"></div>
       <div class="item">
-        <p class="header"><b>Photography</b></p>
+        <p class="topic source-sans-pro"><b>Photography</b></p>
         <div class="indent">
-          <p><a href="https://photovirtanen.kuvat.fi/kuvat/">[kuvat.fi] https://photovirtanen.kuvat.fi/kuvat/</a></p>
-          <p><a href="https://flickr.com/photos/virtanenotto/">[flickr] https://flickr.com/photos/virtanenotto/</a></p>
+          <p><a href="https://www.instagram.com/photovirtanen/" target="_blank">photovirtanen [instagram]</a></p>
+          <p><a href="https://photovirtanen.kuvat.fi/kuvat/" target="_blank">photovirtanen [kuvat.fi]</a></p>
+          <p><a href="https://flickr.com/photos/virtanenotto/" target="_blank">virtanenotto [flickr]</a></p>
         </div>
       </div>
       <div class="small-line"></div>
       <div class="item">
-        <p class="header"><b>Interests</b></p>
-        <p>motorcycling, tennis, scouting, telemark skiing, video games</p>
+        <p class="topic source-sans-pro"><b>Interests</b></p>
+        <p>motorcycling, tennis, scouting, telemark skiing, video games, aviation</p>
       </div>
     </div>
 
     <footer>
-      <p>Hello World</p>
+      <p>Hello World!</p>
+      <div class="links">
+        <ul class="ul">
+          <li class="li">
+            <a href="https://www.linkedin.com/in/otto-virtanen/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+          <li class="li">
+            <a href="https://github.com/trueaddict" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li class="li">
+            <a href="https://www.instagram.com/trueaddict/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          <li class="li">
+            <a href="https://twitter.com/virtanenotto" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          <li class="li">
+            <a href="https://trailblazer.me/id/ovirtanen" target="_blank"><i class="fab fa-salesforce" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
     </footer>
-  </body>
+  </div>
+  <!--<div class="flex-child">
+    <p>Dev</p>
+  </div>-->
+</body>
+
 </html>
