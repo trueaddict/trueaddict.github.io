@@ -113,7 +113,8 @@ footer p {
 /* Widens the body at small screen sizes */
 @media screen and (max-width: 1000px) {
   .flex-child {
-    width: 95%;
+    width: 100%;
+    font-size: large;
     margin: auto;
   }
 }
